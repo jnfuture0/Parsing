@@ -16,10 +16,10 @@
         android:theme="@style/Theme.Parsing"
         tools:targetApi="31">
         <activity
-            android:name=".NaverActivity"
+            android:name=".presentation.view.NaverActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
